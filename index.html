@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+ 
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <title>NFT Preview Card</title>
+
+  <style>
+    body {
+      font-family: 'Outfit', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-[#0D192B] flex items-center justify-center min-h-screen p-4">
+
+  
+  <div class="bg-[#14253D] max-w-sm rounded-xl p-6 shadow-2xl"> <!--kulso box-->
+
+   
+    <div class="relative group cursor-pointer rounded-lg overflow-hidden">
+      <img src="./images/image-equilibrium.jpg" > 
+      
+
+      
+      <div class="absolute inset-0 bg-cyan-400/40 opacity-0 group-hover:opacity-100 flex items-center justify-center transition">
+        
+        <img src="images/icon-view.svg" >
+      </div>
+    </div>
+
+    
+    <h1 class="text-white text-xl font-semibold mt-5 hover:text-cyan-400 cursor-pointer transition"> <!--text szinbeallitas-->
+      Equilibrium #3429
+    </h1>
+
+    
+    <p class="text-[#8BACD9] text-sm mt-3 leading-relaxed">
+      Our Equilibrium collection promotes balance and calm.
+    </p>
+
+    
+    <div class="flex justify-between items-center mt-4 border-b border-[#2F415B] pb-4">
+
+      <div class="flex items-center gap-2">
+        
+        <img src="./images/icon-ethereum.svg" >
+        <span class="text-cyan-400 font-semibold">0.041 ETH</span>
+      </div>
+
+      <div class="flex items-center gap-2 text-[#8BACD9]">
+        
+        <img src="./images/icon-clock.svg" >
+        <span>3 days left</span>
+      </div>
+    </div>
+
+    
+    <div class="flex items-center gap-3 mt-4">
+      
+      <img src="./images/image-avatar.png"  class="w-8 rounded-full border border-white">
+      
+
+      <p class="text-[#8BACD9] text-sm">
+        Creation of <span class="text-white hover:text-cyan-400 cursor-pointer transition">Jules Wyvern</span>
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>
